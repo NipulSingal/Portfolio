@@ -3,49 +3,111 @@ body{
 	font-weight: 400;
   color: #FFFFFF;
   position: relative;
-  overflow-x: hidden;
-}
-
-/* #nav_bar{
-  padding-top: 10px;
-  background-color: transparent;
-  border: none;
-  font-size: 20px;
-  text-align: center;
-}
-
-
-#nav_bar ul li a:hover{
-  color: #FFF;
-} */
-#pic{
-  width: 300px;
-  height: 300px;
-  filter: brightness(90%);
-  transform: translateY(-200%);
-  border: 3px solid white;
-  border-radius: 50%;
-  display: block;
-  margin: auto;
-  box-shadow: 0px 0px 30px 1px #333333;
-  
-}
-#pic:hover{
-  border-color: blue;
 }
 #particles-js{
-  background-color: #262626;
   height: 100%;
   width: 100%;
+  background-color: #262626;
+  background-image: url("../img/nipul2.jpg"), url("../img/chevron-down.png");
+  background-size:300px 300px , 35px 35px;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-position: center , 50% 85%;
+  position: relative;
 }
-
 .name{
   color:white;
   font-weight: 500;
   letter-spacing: 7px;
   font-size: 45px;
+  position: relative;
   text-align: center;
-  transform: translateY(-1050%);
+}
+#about{
+  height: 92%;
+  width: 100%;
+  background-color:white;
+  position: absolute;
+  display: block;
+}
+#heading{
+  text-align: center;
+  margin-top: 20px;
+}
+.links{
+  font-size: 35px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.link{
+  display: inline-block;
+  margin: 0 50px 0 50px;
+  color: #262626;
+  padding: 4px 5px 4px 5px;
+  border-radius: 50%;
+  border-color: #262626;
+  border-style: solid;
+  border-width: 2px;
+}
+.link:hover{
+  color: #FFF;
+  background-color: #33332E;
+  border-color: #33332E;
+}
+@media (max-width:600px) {
+  .link{
+         margin: 0 20px 0 20px;
+  }
+}
+
+@media (max-width:400px) {
+  .link{
+         margin: 0 10px 0 10px;
+  }
+}
+.about-me-box{
+  background-color: grey;
+  height: 80%;
+  margin-top: 80px;
+  width: 80%;
+  position: relative;
+}
+.pro{
+  margin: 20px;
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: 4px;
+  color: black;
+  text-align: center;
+}
+
+.pro span{
+  margin: 0;
+  color: #FFF;
+  font-size: 90%;
+  font-weight: 300;
+  letter-spacing: 0px;
+}
+.pro2{
+  margin: 20px;
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: 4px;
+  color: black;
+  float: right;
+  /* transform: translateY(-310px); */
+}
+
+.pro2 span{
+  margin: 0;
+  color: #FFF;
+  font-size: 90%;
+  font-weight: 300;
+  letter-spacing: 0px;
+  float: right;
+}
+
+#num_list{
+  padding-left: 0px;
+  list-style-position:inside;
 }
