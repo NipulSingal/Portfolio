@@ -216,6 +216,39 @@ body{
   transform: translateY(-120px);
   margin: 1px;
 }
+.work-experience{
+  float: left;
+  position: relative;
+  opacity: 1;
+}
+.heading4{
+  text-align: center;
+  margin: 40px;
+  color: white;
+  /* float: left; */
+  transform: translateX(+40px);
+}
+.sequence2{
+  /* float: left; */
+  margin : 120px;
+  transform: translateY(-70px)
+}
+.sequence2:hover{
+  font-weight: 700;
+}
+.workimage{
+  height: 120px;
+  width: 120px;
+  float: left;
+  /* margin-top: 50px; */
+}
+.para2{
+  color: white;
+  /* float: right; */
+  text-align: center;
+  transform: translateX(-50px);
+  margin: 1px;
+}
 #footer{
   /* color: white; */
   text-align: center;
