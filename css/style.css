@@ -183,6 +183,38 @@ body{
   background-color: black;
   position: relative;
   display: block;
+  opacity: 0.7;
+}
+.education{
+  float: right;
+  position: relative;
+  opacity: 1;
+}
+.heading3{
+  text-align: center;
+  margin: 40px;
+  color: white;
+  float: right;
+  transform: translateX(-250px);
+}
+.sequence{
+  float: right;
+}
+.sequence:hover{
+  font-weight: 700;
+}
+.edimage{
+  height: 120px;
+  width: 120px;
+  float: left;
+  margin-right: 500px;
+}
+.para{
+  color: white;
+  /* float: right; */
+  text-align: center;
+  transform: translateY(-120px);
+  margin: 1px;
 }
 #footer{
   /* color: white; */
