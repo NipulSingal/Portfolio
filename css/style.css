@@ -98,7 +98,7 @@ body{
   height: 127%;
   width: 100%;
   background-color:black;
-  position: absolute;
+  position: relative;
   display: block;
 }
 #heading2{
@@ -163,4 +163,12 @@ body{
   font-size: 40px;
   font-weight: 500;
   padding: 16px 32px;
+}
+
+#skills{
+  height: 700px;
+  width: 100%;
+  background-color:white;
+  position: absolute;
+  display: block;
 }
