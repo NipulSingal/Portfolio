@@ -23,6 +23,10 @@ body{
   text-align: center;
   transform: translateY(80px);
 }
+.name:hover{
+  color: blue;
+  font-weight: 700;
+}
 #about{
   height: 100%;
   width: 100%;
@@ -169,6 +173,13 @@ body{
   height: 700px;
   width: 100%;
   background-color:white;
+  position: relative;
+  display: block;
+}
+#work{
+  height: 730px;
+  width: 100%;
+  background-color: black;
   position: absolute;
   display: block;
 }
